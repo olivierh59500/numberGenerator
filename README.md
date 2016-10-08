@@ -1,7 +1,7 @@
 # numberGenerator
 Script used in PenTesting WiFi Access Points.
 
-How to Use
+Usage.
 1. To Stream to aircrack
     "numberGenerator stream {areacdoe} | {aircrack command}"
 
