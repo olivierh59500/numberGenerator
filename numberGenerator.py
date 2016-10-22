@@ -3,7 +3,7 @@ import sys
 
 def startProgram():
     sys.tracebacklimit = 0
-    NPA = ini(sys.argvb[2])
+    NPA = int(sys.argv[2])
     NXX = 200
     XXXX = 0000
     global phoneList
@@ -13,7 +13,7 @@ def startProgram():
         phoneList = open(str(NPA)+'PhoneList', 'a+')
     numberCreation(NPA, NXX, XXXX)
 
-def numberCretion(NPA, NXX, XXXX)
+def numberCreation(NPA, NXX, XXXX):
     while (NXX < 1000):
         number = str(NPA)+str(NXX)+str(XXXX).zfill(4)
         if fileOption == 'file':
